@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ford.cnevapp.debug",
+    "sha256_cert_fingerprints":
+    ["17:FD:FB:95:60:08:50:BA:71:F4:4D:94:13:27:39:11:EC:18:62:D5:DE:25:C5:25:CE:FA:07:A6:BB:2C:C9:12"]
+  }
+}]

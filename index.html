@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>deeplink</title>
+    <script>
+        var applink1 = 'https://www.blueland.fordstore.com.cn/appdownload/?cookieName=EVWebviewCookie&tokenType=SCRM&deepLinkUrl=https%3A%2F%2Fuat.osm.ford.com.cn%2Fweb%2Fh5%2F%23%2Fpages%2Fproduct%2FproductDetail%3FspuId%3D54%26source%3Doutside'; 
+        var universal_link = 'ios下载地址';//ios下载地址
+        var u = navigator.userAgent.toLocaleLowerCase();
+        var isiOS = !! u.match(/(iphone|ipod|ipad|mac)/i);
+        var isiOS = false;
+
+        function testIosOpenDeeplink() {
+                window.location.href = applink1;
+                window.setTimeout(function () {
+                    window.location.href = applink1; /***iOS移动端下载地址***/
+                }, 2000);
+        }
+         
+        function ios() {
+            window.location.href = universal_link + "?schema=" + encodeURIComponent(download_schema);
+        } 
+        </script>
+        <style>*,body,html,div,p,img,button,a{border:0;margin:0;padding:0;} </style>
+</head>
+
+<body style="margin:0;padding:0;">
+    <p>Https</p>
+
+    <button
+        onclick="window.location.href ='https://www.blueland.fordstore.com.cn/appdownload?cookieName=EVWebviewCookie&tokenType=SCRM&url=https://www.baidu.com'">生产地址</button>
+     
+    </br>
+        </br>
+        <a onclick="testIosOpenDeeplink()">测试iOS打开deeplinkXXXXX</a>
+        </br>
+    </br>
+</body>
+</html>
