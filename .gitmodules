@@ -1,0 +1,3 @@
+[submodule "subMoudleGitTest"]
+	path = subMoudleGitTest
+	url = git@github.com:JLU51-ford/subMoudleGitTest.git
