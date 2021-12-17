@@ -1,0 +1,359 @@
+2021-11-30 21:09:10.834245+0800 evapp-cn[16127:4846619] flutter: EVWebView -> FordWebView --> Pay-->navigation url=https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx302109106281243333a211784989640000&package=1237809627&redirect_url=https://cmpsitmobile.lenovoconnect.com/%23/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7B%22orderNo%22:%22782936863156604928%22%2C%22flag%22:%221%22%2C%22type%22:%227%22%7D
+2021-11-30 21:09:10.877247+0800 evapp-cn[16127:4846404] [ProcessSwapping] 0x13b97d600 - ProvisionalPageProxy::ProvisionalPageProxy: pageID = 22 navigationID = 3 suspendedPage: 0x0
+2021-11-30 21:09:10.894043+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageStarted-> url=https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx302109106281243333a211784989640000&package=1237809627&redirect_url=https://cmpsitmobile.lenovoconnect.com/%23/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7B%22orderNo%22:%22782936863156604928%22%2C%22flag%22:%221%22%2C%22type%22:%227%22%7D
+2021-11-30 21:09:11.031340+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageFinished-> url=https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx302109106281243333a211784989640000&package=1237809627&redirect_url=https://cmpsitmobile.lenovoconnect.com/%23/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7B%22orderNo%22:%22782936863156604928%22%2C%22flag%22:%221%22%2C%22type%22:%227%22%7D
+2021-11-30 21:09:11.032323+0800 evapp-cn[16127:4846619] flutter: EVWebView -> FordWebView --> Pay-->navigation url=weixin://wap/pay?prepayid%3Dwx302109106281243333a211784989640000&package=1237809627&noncestr=1638277751&sign=77da1b7b7b58b75f9e5c007a26387084
+2021-11-30 21:09:11.032427+0800 evapp-cn[16127:4846619] flutter: EVWebView -> FordWebView --> wechat Pay--> url=weixin://wap/pay?prepayid%3Dwx302109106281243333a211784989640000&package=1237809627&noncestr=1638277751&sign=77da1b7b7b58b75f9e5c007a26387084
+2021-11-30 21:09:11.048320+0800 evapp-cn[16127:4846619] [VERBOSE-2:ui_dart_state.cc(199)] Unhandled Exception: PlatformException(evaluateJavaScript_failed, Failed evaluating JavaScript, JavaScript string was: 'setStatusBarHeight('20.0')'
+Error Domain=WKErrorDomain Code=4 "发生JavaScript异常" UserInfo={WKJavaScriptExceptionLineNumber=0, WKJavaScriptExceptionMessage=TypeError: undefined is not a function, WKJavaScriptExceptionColumnNumber=0, NSLocalizedDescription=发生JavaScript异常}, null)
+#0      StandardMethodCodec.decodeEnvelope (package:flutter/src/services/message_codecs.dart:597:7)
+#1      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:158:18)
+<asynchronous suspension>
+2021-11-30 21:09:11.050796+0800 evapp-cn[16127:4846404] [ProcessSwapping] 0x13b97d760 - ProvisionalPageProxy::ProvisionalPageProxy: pageID = 22 navigationID = 4 suspendedPage: 0x0
+2021-11-30 21:09:11.225675+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageStarted-> url=weixin://wap/pay?prepayid%3Dwx302109106281243333a211784989640000&package=1237809627&noncestr=1638277751&sign=77da1b7b7b58b75f9e5c007a26387084
+2021-11-30 21:09:11.252736+0800 evapp-cn[16127:4846404] [ProcessSwapping] 0x13b97d760 - ProvisionalPageProxy::didFailProvisionalLoadForFrame: pageID = 22, frameID = 1, navigationID = 4
+2021-11-30 21:09:11.266460+0800 evapp-cn[16127:4846619] flutter: EVWebView onWebResourceError-> error.domain=NSURLErrorDomain,error.description=Error Domain=NSURLErrorDomain Code=-1002 "unsupported URL" UserInfo={_NSURLErrorFailingURLSessionTaskErrorKey=LocalDataTask <D1507998-1960-4AF8-88A4-E86CE8A817F4>.<16>, NSLocalizedDescription=unsupported URL, _WKRecoveryAttempterErrorKey=<WKReloadFrameErrorRecoveryAttempter: 0x283908b00>, networkTaskDescription=LocalDataTask <D1507998-1960-4AF8-88A4-E86CE8A817F4>.<16>, NSErrorFailingURLStringKey=weixin://wap/pay?prepayid%3Dwx302109106281243333a211784989640000&package=1237809627&noncestr=1638277751&sign=77da1b7b7b58b75f9e5c007a26387084, NSErrorFailingURLKey=weixin://wap/pay?prepayid%3Dwx302109106281243333a211784989640000&package=1237809627&noncestr=1638277751&sign=77da1b7b7b58b75f9e5c007a26387084, NSUnderlyingError=0x2836d0db0 {Error Domain=kCFErrorDomainCFNetwork Code=-1002 "(null)"}},error.errorCode=-1002,,error.errorType=null
+2021-11-30 21:09:11.375251+0800 evapp-cn[16127:4846404] [ProcessSuspension] 0x13b9e2f40 - ProcessAssertion::processAssertionWasInvalidated()
+2021-11-30 21:09:11.960316+0800 evapp-cn[16127:4846404] Memory in use (in bytes): 361449288
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️Current Memory Usage is 344 MB⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+2021-11-30 21:09:12.145000+0800 🛠 Debug  SAAppLifecycle.m -[SAAppLifecycle applicationDidEnterBackground:] line:197 application did enter background
+2021-11-30 21:09:12.159000+0800 🛠 Debug  SADatabase.m -[SADatabase insertRecord:] line:263 insert into dataCache table of sqlite success, current count is 1
+2021-11-30 21:09:12.160000+0800 🛠 Debug  SensorsAnalyticsSDK.m -[SensorsAnalyticsSDK trackEventObject:properties:] line:652 
+【track event】:
+{
+    "_track_id" = 2704818870;
+    "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+    "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    event = "$AppEnd";
+    lib =     {
+        "$app_version" = "1.0.0";
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+    };
+    "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    properties =     {
+        "$app_id" = "com.ford.cnevapp";
+        "$app_name" = "MustangMach-E";
+        "$app_version" = "1.0.0";
+        "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "$is_first_day" = 1;
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+        "$manufacturer" = Apple;
+        "$model" = "iPhone10,1";
+        "$network_type" = WIFI;
+        "$os" = iOS;
+        "$os_version" = "13.1.2";
+        "$screen_height" = 667;
+        "$screen_width" = 375;
+        "$timezone_offset" = "-480";
+        "$wifi" = 1;
+        "event_duration" = "51.708";
+        "lifecycle_level" = "";
+        "platform_type" = App;
+    };
+    time = 1638277752150;
+    type = track;
+}
+2021-11-30 21:09:12.180088+0800 evapp-cn[16127:4846404] [Snapshotting] Snapshotting a view (0x139c27000, UIKeyboardImpl) that is not in a visible window requires afterScreenUpdates:YES.
+2021-11-30 21:09:12.210000+0800 🛠 Debug  SAEventFlush.m -[SAEventFlush requestWithRecords:completion:]_block_invoke_2 line:146 <SAEventFlush: 0x283ba7c80> 
+【valid message】
+: (
+        {
+        "_flush_time" = 1638277752173;
+        "_track_id" = 2704818870;
+        "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        event = "$AppEnd";
+        lib =         {
+            "$app_version" = "1.0.0";
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+        };
+        "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        properties =         {
+            "$app_id" = "com.ford.cnevapp";
+            "$app_name" = "MustangMach-E";
+            "$app_version" = "1.0.0";
+            "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+            "$is_first_day" = 1;
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+            "$manufacturer" = Apple;
+            "$model" = "iPhone10,1";
+            "$network_type" = WIFI;
+            "$os" = iOS;
+            "$os_version" = "13.1.2";
+            "$screen_height" = 667;
+            "$screen_width" = 375;
+            "$timezone_offset" = "-480";
+            "$wifi" = 1;
+            "event_duration" = "51.708";
+            "lifecycle_level" = "";
+            "platform_type" = App;
+        };
+        time = 1638277752150;
+        type = track;
+    }
+)
+2021-11-30 21:09:12.342548+0800 evapp-cn[16127:4846404] Can't end BackgroundTask: no background task exists with identifier 19 (0x13), or it may have already been ended. Break in UIApplicationEndBackgroundTaskError() to debug.
+2021-11-30 21:09:16.042460+0800 evapp-cn[16127:4846619] flutter: EVWebView -> FordWebView --> Pay-->navigation url=https://cmpsitmobile.lenovoconnect.com/#/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7BorderNo:782936863156604928,flag:1,type:7%7D
+2021-11-30 21:09:16.083582+0800 evapp-cn[16127:4846404] [ProcessSwapping] 0x13b97d8c0 - ProvisionalPageProxy::ProvisionalPageProxy: pageID = 22 navigationID = 5 suspendedPage: 0x0
+2021-11-30 21:09:16.128146+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageStarted-> url=https://cmpsitmobile.lenovoconnect.com/#/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7BorderNo:782936863156604928,flag:1,type:7%7D
+2021-11-30 21:09:16.325211+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageFinished-> url=https://cmpsitmobile.lenovoconnect.com/#/tp/link?callBackUrl=https://uat.osm.ford.com.cn/web/h5/%23/pages/page/message?param=%7BorderNo:782936863156604928,flag:1,type:7%7D
+2021-11-30 21:09:16.364867+0800 evapp-cn[16127:4846619] [VERBOSE-2:ui_dart_state.cc(199)] Unhandled Exception: PlatformException(evaluateJavaScript_failed, Failed evaluating JavaScript, JavaScript string was: 'setStatusBarHeight('20.0')'
+Error Domain=WKErrorDomain Code=4 "发生JavaScript异常" UserInfo={WKJavaScriptExceptionLineNumber=0, WKJavaScriptExceptionMessage=TypeError: undefined is not a function, WKJavaScriptExceptionColumnNumber=0, NSLocalizedDescription=发生JavaScript异常}, null)
+#0      StandardMethodCodec.decodeEnvelope (package:flutter/src/services/message_codecs.dart:597:7)
+#1      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:158:18)
+<asynchronous suspension>
+2021-11-30 21:09:16.379881+0800 evapp-cn[16127:4846619] flutter: EVWebView -> FordWebView --> Pay-->navigation url=https://uat.osm.ford.com.cn/web/h5/#/pages/page/message
+2021-11-30 21:09:16.404156+0800 evapp-cn[16127:4846404] [ProcessSwapping] 0x13b97da20 - ProvisionalPageProxy::ProvisionalPageProxy: pageID = 22 navigationID = 6 suspendedPage: 0x0
+2021-11-30 21:09:16.412016+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageStarted-> url=https://uat.osm.ford.com.cn/web/h5/#/pages/page/message
+2021-11-30 21:09:16.813949+0800 evapp-cn[16127:4846619] flutter: 
+---------------- flutter call native ----------------
+
+method_name: fetch_default_vin
+parameters: null
+
+-----------------------------------------------------
+2021-11-30 21:09:16.853220+0800 evapp-cn[16127:4846619] flutter: 
+---------------- response from native ---------------
+
+method_name: fetch_default_vin
+response: 1FADP3R47FL221922
+
+-----------------------------------------------------
+2021-11-30 21:09:16.854371+0800 evapp-cn[16127:4846619] flutter: 
+---------------- flutter call native ----------------
+
+method_name: white_box_encrypt_base64
+parameters: {encryptKey: dd6e88d9150bf48a934e6f8db916886274623135833462675a9b4bde8af1a44fff16c8393877ef51be918eee50f37a9450ae8fe5a2f18ff45cb6f224759bcb428c7e3b32d7af8f83d1a562dfa8e72a2a4513629ef8ded7883a73cc671f00e116d7a6cf8043a853566553feb669b4b686602e9e6c7e4219b6f3375dc57d4c7afaef088ee2c5d7519c1096cc1e1eb6e300411901a2f15852035eecc9a52c031b9f9d9e3d91e6fdddad13679469e7a6e89a58496edbe27623fa259d56c1fe01e52511a87eacd81f616beeb887f0f58d6e4dfb22265dc399cf994e15dc5818ed7cba7b339ea31b6718c6841f94502cb6987fbab600de, encryptContent: 1FADP3R47FL221922}
+
+-----------------------------------------------------
+2021-11-30 21:09:16.857419+0800 evapp-cn[16127:4846619] flutter: 
+---------------- response from native ---------------
+
+method_name: white_box_encrypt_base64
+response: {encryptResult: pA9BXzGhmtfujQhERVhJg08o+bd1lkxenOpl7e6VN6M=, ivHexString: 6e787364636f62666f74747665706475}
+
+-----------------------------------------------------
+2021-11-30 21:09:17.851782+0800 evapp-cn[16127:4846619] flutter: EVWebView onPageFinished-> url=https://uat.osm.ford.com.cn/web/h5/#/pages/page/message
+2021-11-30 21:09:17.930822+0800 evapp-cn[16127:4846619] [VERBOSE-2:ui_dart_state.cc(199)] Unhandled Exception: PlatformException(evaluateJavaScript_failed, Failed evaluating JavaScript, JavaScript string was: 'setStatusBarHeight('20.0')'
+Error Domain=WKErrorDomain Code=4 "发生JavaScript异常" UserInfo={WKJavaScriptExceptionLineNumber=0, WKJavaScriptExceptionMessage=TypeError: undefined is not a function, WKJavaScriptExceptionColumnNumber=0, NSLocalizedDescription=发生JavaScript异常}, null)
+#0      StandardMethodCodec.decodeEnvelope (package:flutter/src/services/message_codecs.dart:597:7)
+#1      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:158:18)
+<asynchronous suspension>
+2021-11-30 21:11:56.394780+0800 evapp-cn[16127:4846404] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2021-11-30 21:11:56.415168+0800 evapp-cn[16127:4848431] [] nw_read_request_report [C36] Receive failed with error "Software caused connection abort"
+2021-11-30 21:11:56.502862+0800 evapp-cn[16127:4846404] [ProcessSuspension] 0x282c512c0 - WKProcessAssertionBackgroundTaskManager: Ignored request to start a new background task because the application is already in the background
+2021-11-30 21:11:56.503392+0800 evapp-cn[16127:4846404] [ProcessSuspension] 0x282c512c0 - WKProcessAssertionBackgroundTaskManager: Ignored request to start a new background task because the application is already in the background
+2021-11-30 21:11:56.562450+0800 evapp-cn[16127:4849820] [] nehelper sent invalid result code [1] for Wi-Fi information request
+2021-11-30 21:11:56.563389+0800 evapp-cn[16127:4848641] Incorrect NSStringEncoding value 0x8000100 detected. Assuming NSASCIIStringEncoding. Will stop this compatibility mapping behavior in the near future.
+2021-11-30 21:11:56.563803+0800 evapp-cn[16127:4848641] Incorrect NSStringEncoding value 0x8000100 detected. Assuming NSASCIIStringEncoding. Will stop this compatibility mapping behavior in the near future.
+2021-11-30 21:11:56.860000+0800 🛠 Debug  SAAppLifecycle.m -[SAAppLifecycle applicationDidBecomeActive:] line:169 application did become active
+2021-11-30 21:11:56.861000+0800 🛠 Debug  SensorsAnalyticsSDK.m -[SensorsAnalyticsSDK startFlushTimer] line:844 starting flush timer.
+2021-11-30 21:11:56.862000+0800 🛠 Debug  SensorsAnalyticsSDK.m -[SensorsAnalyticsSDK startFlushTimer] line:844 starting flush timer.
+2021-11-30 21:11:56.877000+0800 🛠 Debug  SADatabase.m -[SADatabase insertRecord:] line:263 insert into dataCache table of sqlite success, current count is 1
+2021-11-30 21:11:56.878000+0800 🛠 Debug  SensorsAnalyticsSDK.m -[SensorsAnalyticsSDK trackEventObject:properties:] line:652 
+【track event】:
+{
+    "_track_id" = 1310039533;
+    "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+    "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    event = "$AppStart";
+    lib =     {
+        "$app_version" = "1.0.0";
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+    };
+    "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    properties =     {
+        "$app_id" = "com.ford.cnevapp";
+        "$app_name" = "MustangMach-E";
+        "$app_version" = "1.0.0";
+        "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "$is_first_day" = 1;
+        "$is_first_time" = 0;
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+        "$manufacturer" = Apple;
+        "$model" = "iPhone10,1";
+        "$network_type" = WIFI;
+        "$os" = iOS;
+        "$os_version" = "13.1.2";
+        "$resume_from_background" = 1;
+        "$screen_height" = 667;
+        "$screen_width" = 375;
+        "$timezone_offset" = "-480";
+        "$wifi" = 1;
+        "lifecycle_level" = "";
+        "platform_type" = App;
+    };
+    time = 1638277916861;
+    type = track;
+}
+2021-11-30 21:11:56.910561+0800 evapp-cn[16127:4846619] flutter: 
+---------------- flutter call native ----------------
+
+method_name: fetch_default_vin
+parameters: null
+
+-----------------------------------------------------
+2021-11-30 21:11:56.961001+0800 evapp-cn[16127:4846619] flutter: 
+---------------- response from native ---------------
+
+method_name: fetch_default_vin
+response: 1FADP3R47FL221922
+
+-----------------------------------------------------
+2021-11-30 21:11:56.961309+0800 evapp-cn[16127:4846619] flutter: 
+---------------- flutter call native ----------------
+
+method_name: save_bool
+parameters: {key: HOME_PAGE_SHOW_VEHICLE, value: true}
+
+-----------------------------------------------------
+2021-11-30 21:11:56.990000+0800 🛠 Debug  SAEventFlush.m -[SAEventFlush requestWithRecords:completion:]_block_invoke_2 line:146 <SAEventFlush: 0x283ba7c80> 
+【valid message】
+: (
+        {
+        "_flush_time" = 1638277916887;
+        "_track_id" = 1310039533;
+        "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        event = "$AppStart";
+        lib =         {
+            "$app_version" = "1.0.0";
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+        };
+        "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        properties =         {
+            "$app_id" = "com.ford.cnevapp";
+            "$app_name" = "MustangMach-E";
+            "$app_version" = "1.0.0";
+            "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+            "$is_first_day" = 1;
+            "$is_first_time" = 0;
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+            "$manufacturer" = Apple;
+            "$model" = "iPhone10,1";
+            "$network_type" = WIFI;
+            "$os" = iOS;
+            "$os_version" = "13.1.2";
+            "$resume_from_background" = 1;
+            "$screen_height" = 667;
+            "$screen_width" = 375;
+            "$timezone_offset" = "-480";
+            "$wifi" = 1;
+            "lifecycle_level" = "";
+            "platform_type" = App;
+        };
+        time = 1638277916861;
+        type = track;
+    }
+)
+2021-11-30 21:11:57.533474+0800 evapp-cn[16127:4849820] PaaK | Mod | WebRequest - [200] POST https://stgcn.api.mps.ford.com.cn/api/servicemessagecenter/v2/messages?lastMessageId=0
+2021-11-30 21:11:57.552056+0800 evapp-cn[16127:4849820] PaaK | Mod | 
+KeyRevokeManager.swift checkForServiceMessages(completion:)
+ServiceMessageList fetched:
+[]
+
+2021-11-30 21:11:57.558264+0800 evapp-cn[16127:4849820] PaaK | Mod | Processing Service Messages
+2021-11-30 21:11:57.562509+0800 evapp-cn[16127:4849820] PaaK | Mod | No new service messages
+2021-11-30 21:12:00.000638+0800 evapp-cn[16127:4846404] Memory in use (in bytes): 368789320
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️Current Memory Usage is 351 MB⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+2021-11-30 21:12:00.174000+0800 🛠 Debug  SAAppLifecycle.m -[SAAppLifecycle applicationDidEnterBackground:] line:197 application did enter background
+2021-11-30 21:12:00.177000+0800 🛠 Debug  SADatabase.m -[SADatabase insertRecord:] line:263 insert into dataCache table of sqlite success, current count is 1
+2021-11-30 21:12:00.177000+0800 🛠 Debug  SensorsAnalyticsSDK.m -[SensorsAnalyticsSDK trackEventObject:properties:] line:652 
+【track event】:
+{
+    "_track_id" = 1927674125;
+    "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+    "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    event = "$AppEnd";
+    lib =     {
+        "$app_version" = "1.0.0";
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+    };
+    "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+    properties =     {
+        "$app_id" = "com.ford.cnevapp";
+        "$app_name" = "MustangMach-E";
+        "$app_version" = "1.0.0";
+        "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "$is_first_day" = 1;
+        "$lib" = iOS;
+        "$lib_method" = autoTrack;
+        "$lib_version" = "3.1.9";
+        "$manufacturer" = Apple;
+        "$model" = "iPhone10,1";
+        "$network_type" = WIFI;
+        "$os" = iOS;
+        "$os_version" = "13.1.2";
+        "$screen_height" = 667;
+        "$screen_width" = 375;
+        "$timezone_offset" = "-480";
+        "$wifi" = 1;
+        "event_duration" = "3.313";
+        "lifecycle_level" = "";
+        "platform_type" = App;
+    };
+    time = 1638277920174;
+    type = track;
+}
+2021-11-30 21:12:00.195498+0800 evapp-cn[16127:4846404] [Snapshotting] Snapshotting a view (0x13f003800, UIKeyboardImpl) that has not been rendered at least once requires afterScreenUpdates:YES.
+2021-11-30 21:12:00.283041+0800 evapp-cn[16127:4846404] Can't end BackgroundTask: no background task exists with identifier 28 (0x1c), or it may have already been ended. Break in UIApplicationEndBackgroundTaskError() to debug.
+2021-11-30 21:12:00.914000+0800 🛠 Debug  SAEventFlush.m -[SAEventFlush requestWithRecords:completion:]_block_invoke_2 line:146 <SAEventFlush: 0x283ba7c80> 
+【valid message】
+: (
+        {
+        "_flush_time" = 1638277920194;
+        "_track_id" = 1927674125;
+        "anonymous_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+        "distinct_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        event = "$AppEnd";
+        lib =         {
+            "$app_version" = "1.0.0";
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+        };
+        "login_id" = "68f23d96-d195-400a-a061-cbdedffb3c22";
+        properties =         {
+            "$app_id" = "com.ford.cnevapp";
+            "$app_name" = "MustangMach-E";
+            "$app_version" = "1.0.0";
+            "$device_id" = "673CCBD0-6F92-439A-B12C-97C70957A5DF";
+            "$is_first_day" = 1;
+            "$lib" = iOS;
+            "$lib_method" = autoTrack;
+            "$lib_version" = "3.1.9";
+            "$manufacturer" = Apple;
+            "$model" = "iPhone10,1";
+            "$network_type" = WIFI;
+            "$os" = iOS;
+            "$os_version" = "13.1.2";
+            "$screen_height" = 667;
+            "$screen_width" = 375;
+            "$timezone_offset" = "-480";
+            "$wifi" = 1;
+            "event_duration" = "3.313";
+            "lifecycle_level" = "";
+            "platform_type" = App;
+        };
+        time = 1638277920174;
+        type = track;
+    }
+)
